@@ -10,7 +10,7 @@
     "node": ">=10.x.x"
   },
   "devDependencies": {
-    "ajv": "6.5.x",
+    "ajv": "6.12.x",
     "glob": "7.1.x",
     "lodash": "4.17.x",
     "request": "2.88.x",
