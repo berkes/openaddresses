@@ -1,6 +1,6 @@
 {
   "name": "openaddresses",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Manage, test and download a global register of addresses.",
   "scripts": {
     "test": "node test/test | tap-dot"
