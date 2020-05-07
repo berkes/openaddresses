@@ -1,18 +1,14 @@
 {
     "coverage": {
-        "US Census": {
-            "geoid": "19103",
-            "name": "Johnson County",
-            "state": "Iowa"
-        },
         "country": "us",
-        "state": "ia",
-        "county": "Johnson"
+        "state": "ia"
     },
-    "data": "https://gis.johnson-county.com/arcgis/rest/services/Site_Addresses/MapServer/0",
-    "protocol": "ESRI",
+    "data": "https://data.openaddresses.io/cache/uploads/ingalls/bdc482/IOWA_911_ADDRESSES.zip",
+    "protocol": "http",
+    "compression": "zip",
     "conform": {
-        "format": "geojson",
+        "format": "gdb",
+        "unit": "Unit",
         "number": [
             "AddNum_Pre",
             "Add_Number",
@@ -22,13 +18,13 @@
             "StN_PreMod",
             "StN_PreDir",
             "StN_PreTyp",
+            "StN_PreSep",
             "StreetName",
             "StN_PosType",
             "StN_PosDir",
             "StN_PosMod"
         ],
-        "unit": "Unit",
-        "city": "Post_Comm",
+        "city": "MSAG_Comm",
         "district": "County",
         "region": "State",
         "postcode": "Post_Code"
